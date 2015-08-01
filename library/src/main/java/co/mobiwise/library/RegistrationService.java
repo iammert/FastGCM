@@ -42,7 +42,7 @@ public class RegistrationService extends IntentService {
             sharedPreferences.edit().putString(Constants.SHARED_KEY_TOKEN, token).apply();
 
         } catch (Exception e) {
-            sharedPreferences.edit().putBoolean(Constants.SHARED_KEY_TOKEN, false).apply();
+            sharedPreferences.edit().putBoolean(Constants.SHARED_KEY_HAS_TOKEN, false).apply();
         }
 
         LocalBroadcastManager.getInstance(this).sendBroadcast(new Intent(Constants.INTENT_REGISTRATION_COMPLETE));

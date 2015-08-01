@@ -21,10 +21,13 @@ public class GCMTest extends AppCompatActivity implements GCMListener{
 
     @Override
     public void onDeviceRegisted(String deviceToken) {
+        Log.v("TEST","TOKEN : " + deviceToken);
+        GCMManager.getInstance(this).subscribeTopic("asd");
     }
 
     @Override
     public void onMessage(String from, Bundle data) {
+        Log.v("TEST",data.getString("message"));
     }
 
     @Override
