@@ -37,7 +37,7 @@ repositories {
 
 ```
 
-Create your google-services.json file and copy to app module. ([Download it from here](https://developers.google.com/mobile/add?platform=android&cntapi=gcm&cnturl=https:%2F%2Fdevelopers.google.com%2Fcloud-messaging%2Fandroid%2Fclient&cntlbl=Continue%20Adding%20GCM%20Support&%3Fconfigured%3Dtrue))
+**IMPORTANT STEP**  Download your google-services.json file and copy to app module. GCM will use this .json file to get senderID and other informations. ([Download it from here](https://developers.google.com/mobile/add?platform=android&cntapi=gcm&cnturl=https:%2F%2Fdevelopers.google.com%2Fcloud-messaging%2Fandroid%2Fclient&cntlbl=Continue%20Adding%20GCM%20Support&%3Fconfigured%3Dtrue))
 
 Register your device to GCM server
 
