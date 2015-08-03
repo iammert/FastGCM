@@ -75,7 +75,7 @@ GCMManager.getInstance(this).unSubscribeTopic("friendsTopic");
 ```
 
 # As a Service
-Create your custom service and extend it GCMListenerService. Even if you app is not working, this method is called.
+Create your custom service and extend it GCMListenerService. Even if you app is not running, this method is called.
 ```java
 public class CustomGCMService extends GCMListenerService{
 
