@@ -145,7 +145,7 @@ public class GCMManager implements IGCMManager{
         public void onReceive(Context context, Intent intent) {
             boolean hasToken = mSharedPreferences.getBoolean(Constants.SHARED_KEY_HAS_TOKEN, false);
 
-            if(hasToken){
+            if(hasToken && mGcmListener != null){
                 String token = mSharedPreferences.getString(Constants.SHARED_KEY_TOKEN,"");
                 mGcmListener.onDeviceRegisted(token);
             }
