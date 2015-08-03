@@ -74,6 +74,30 @@ GCMManager.getInstance(this).unSubscribeTopic("friendsTopic");
 
 ```
 
+# As a Service
+Create your custom service and extend it GCMListenerService. Even if you app is not working, this method is called.
+```java
+public class CustomGCMService extends GCMListenerService{
+
+    @Override
+    public void onMessageReceived(String from, Bundle data) {
+        super.onMessageReceived(from, data);
+
+        //Here is called even app is not working.
+        //create your notification here.
+    }
+}
+```
+
+Don't forget to add service to your app xml
+```
+<service android:name=".CustomGCMService"
+        android:exported="false">
+        <intent-filter>
+            <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        </intent-filter>
+</service>
+```
 # References
 
 [Developers Google GCM](https://developers.google.com/cloud-messaging/android/client)
