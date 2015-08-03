@@ -90,7 +90,7 @@ public class CustomGCMService extends GCMListenerService{
 ```
 
 Don't forget to add service to your app xml
-```
+```xml
 <service android:name=".CustomGCMService"
         android:exported="false">
         <intent-filter>
