@@ -83,7 +83,7 @@ public class CustomGCMService extends GCMListenerService{
     public void onMessageReceived(String from, Bundle data) {
         super.onMessageReceived(from, data);
 
-        //Here is called even app is not working.
+        //Here is called even app is not running.
         //create your notification here.
     }
 }
