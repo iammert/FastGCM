@@ -22,7 +22,7 @@ Add dependency and plugin to project level build.gradle.
 apply plugin: 'com.google.gms.google-services'
 
 dependencies {
-    compile 'com.github.iammert:FastGCM:0bf078c8ad'
+    compile 'com.github.iammert:FastGCM:00e66c0931'
 }
 ```
 
