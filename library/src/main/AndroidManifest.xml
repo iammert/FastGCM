@@ -7,9 +7,9 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
 
-    <permission android:name="co.mobiwise.library.permission.C2D_MESSAGE"
+    <permission android:name="${applicationId}.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
-    <uses-permission android:name="co.mobiwise.library.permission.C2D_MESSAGE" />
+    <uses-permission android:name="${applicationId}.permission.C2D_MESSAGE" />
 
     <application android:allowBackup="true" android:label="@string/app_name">
         <receiver
