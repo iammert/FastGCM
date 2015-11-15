@@ -1,4 +1,4 @@
-package co.mobiwise.library;
+package co.mobiwise.fastgcm;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

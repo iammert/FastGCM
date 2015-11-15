@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FastGCM.iml" filepath="$PROJECT_DIR$/FastGCM.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fastgcm/fastgcm.iml" filepath="$PROJECT_DIR$/fastgcm/fastgcm.iml" />
     </modules>
   </component>
 </project>

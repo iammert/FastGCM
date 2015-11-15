@@ -1,6 +1,6 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="co.mobiwise.library">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="co.mobiwise.fastgcm">
 
-    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17"/>
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="17"/>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -19,26 +19,26 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-                <category android:name="co.mobiwise.library" />
+                <category android:name="co.mobiwise.fastgcm" />
             </intent-filter>
         </receiver>
 
         <service
-            android:name="co.mobiwise.library.GCMListenerService"
+            android:name="co.mobiwise.fastgcm.GCMListenerService"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
             </intent-filter>
         </service>
         <service
-            android:name="co.mobiwise.library.IDListenerService"
+            android:name="co.mobiwise.fastgcm.IDListenerService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.android.gms.iid.InstanceID"/>
             </intent-filter>
         </service>
 
-        <service android:name="co.mobiwise.library.RegistrationService" android:exported="false"/>
+        <service android:name="co.mobiwise.fastgcm.RegistrationService" android:exported="false"/>
     </application>
 
 </manifest>

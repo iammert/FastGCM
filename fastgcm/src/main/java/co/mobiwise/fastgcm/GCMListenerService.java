@@ -1,7 +1,6 @@
-package co.mobiwise.library;
+package co.mobiwise.fastgcm;
 
 import android.os.Bundle;
-import android.util.Log;
 
 import com.google.android.gms.gcm.GcmListenerService;
 

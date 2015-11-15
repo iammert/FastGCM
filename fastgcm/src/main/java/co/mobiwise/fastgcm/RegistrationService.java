@@ -1,4 +1,4 @@
-package co.mobiwise.library;
+package co.mobiwise.fastgcm;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -8,6 +8,7 @@ import android.support.v4.content.LocalBroadcastManager;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.google.android.gms.iid.InstanceID;
+
 
 /**
  * Created by mertsimsek on 31/07/15.

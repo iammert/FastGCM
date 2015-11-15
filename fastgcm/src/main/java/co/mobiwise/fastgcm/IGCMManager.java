@@ -1,4 +1,4 @@
-package co.mobiwise.library;
+package co.mobiwise.fastgcm;
 
 /**
  * Created by mertsimsek on 31/07/15.

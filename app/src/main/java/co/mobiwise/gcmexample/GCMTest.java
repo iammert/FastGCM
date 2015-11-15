@@ -1,15 +1,14 @@
-package co.mobiwise.fastgcm;
+package co.mobiwise.gcmexample;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 
-import co.mobiwise.library.GCMListener;
-import co.mobiwise.library.GCMManager;
+import co.mobiwise.fastgcm.GCMListener;
+import co.mobiwise.fastgcm.GCMManager;
 
-public class GCMTest extends AppCompatActivity implements GCMListener{
+
+public class GCMTest extends AppCompatActivity implements GCMListener {
 
 
     @Override
