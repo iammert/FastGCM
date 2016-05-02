@@ -1,1 +1,35 @@
-{"project_info":{"project_id":"fastgcm-7cfd4","project_number":"671708005937","name":"FastGCM"},"client":[{"client_info":{"client_id":"android:co.mobiwise.fastgcm","client_type":1,"android_client_info":{"package_name":"co.mobiwise.fastgcm"}},"oauth_client":[],"services":{"analytics_service":{"status":1},"cloud_messaging_service":{"status":2,"apns_config":[]},"appinvite_service":{"status":1,"other_platform_oauth_client":[]},"google_signin_service":{"status":1},"ads_service":{"status":1}}}],"ARTIFACT_VERSION":"1"}
+{
+  "project_info": {
+    "project_number": "192931305794",
+    "project_id": "gcmexample-8223f"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192931305794:android:1f8cd0ac30864393",
+        "android_client_info": {
+          "package_name": "co.mobiwise.gcmexample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZj0kCZX-rLZ_xBs8BXerH-5gxsPmtLbQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

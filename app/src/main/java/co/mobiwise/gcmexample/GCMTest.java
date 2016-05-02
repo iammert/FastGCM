@@ -20,6 +20,7 @@ public class GCMTest extends AppCompatActivity implements GCMListener {
 
     @Override
     public void onDeviceRegisted(String deviceToken) {
+        Log.v("TEST",deviceToken);
         GCMManager.getInstance(this).subscribeTopic("aqa");
     }
 
