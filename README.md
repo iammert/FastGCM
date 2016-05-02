@@ -30,7 +30,7 @@ Add classpath and repository to root level build.gradle.
 
 ```
 dependencies {
-    classpath 'com.google.gms:google-services:1.3.0-beta1'
+    classpath 'com.google.gms:google-services:2.0.0-alpha6'
 }
 
 repositories {
