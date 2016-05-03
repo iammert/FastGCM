@@ -22,7 +22,7 @@ Add dependency and plugin to project level build.gradle.
 apply plugin: 'com.google.gms.google-services'
 
 dependencies {
-    compile 'com.github.iammert:FastGCM:1.1'
+    compile 'com.github.iammert:FastGCM:1.2'
 }
 ```
 
@@ -30,7 +30,7 @@ Add classpath and repository to root level build.gradle.
 
 ```
 dependencies {
-    classpath 'com.google.gms:google-services:1.3.0-beta1'
+    classpath 'com.google.gms:google-services:2.0.0-alpha6'
 }
 
 repositories {
