@@ -4,6 +4,9 @@
 
 Fast Google Cloud Messaging(GCM) integration library for Android. Includes Topic Messaging.
 
+# SUGGESTION
+I suggest you to use [FCM(Firebase Cloud Messaging)](https://firebase.google.com/docs/cloud-messaging/android/client). It is so clear and updated.
+
 # Why
 
 We all do same jobs when our application needs GCM. Creating Listeners, services, Broadcast receivers etc. With this
