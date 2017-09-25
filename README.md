@@ -1,4 +1,4 @@
-# FastGCM
+# [DEPRECATED] FastGCM
 [![Join the chat at https://gitter.im/iammert/FastGCM](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/iammert/FastGCM)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-FastGCM-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/2219)
 
